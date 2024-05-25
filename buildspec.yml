@@ -1,6 +1,6 @@
 version: 0.2
 
-phases:
+phase:
   build:
     commands:
        - aws s3 cp . s3://shazia-s3-bucket --recursive
